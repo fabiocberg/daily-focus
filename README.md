@@ -8,6 +8,14 @@ App minimalista para gerenciar **3 prioridades do dia** e ver o histórico de 7 
 - Hive (persistência local), Dio (opcional para API)
 - Material 3 + dark mode
 
+## Preparando para rodar
+```bash
+flutter create . --platforms=android,ios,web
+flutter clean
+```
+
+Isso só é necessário uma vez assim que o repositório é baixado para criar as pastas das plataformas.
+
 ## Rodando localmente
 ```bash
 flutter pub get
